@@ -4257,16 +4257,19 @@ input, select, textarea {
 .photonkust{display: table;padding:10px;box-shadow: 0 0 10px rgba(0,0,0, 0.2);height:800px;position:relative;background: #fff;}
 .photonkust img{width:48%;height:;margin:5px;}
 .photonkust .click{float:right;margin-right:10px;margin-top:220px;}
+.videonkust{width:50% !important;}
+.detailct h3{font-size: 18px;font-weight: bold}
 }
 @media screen and (max-width: 768px){
 .photonkust{display: table;padding:10px;box-shadow: 0 0 10px rgba(0,0,0, 0.2);height:800px;position:relative;background: #fff;}
 .photonkust img{width:100%;height:;margin:0 auto;}
 .photonkust .click{float:right;margin-right:10px;margin-top:20px;}
+.videonkust{width:100% !important;}
 }
 
 /*--------------- exarea ------------------*/
 .exarearow{margin:0 0px !important}
-.exareacol{width:22% !important;margin:5px 5px 40px 5px;padding:0px 0 20px 0 !important;background:#fff;border:3px solid #f1f1f1;height:100%;box-shadow:0px 10px 10px rgba(0,0,0,.1);
+.exareacol{width:23% !important;margin:5px 5px 40px 5px;padding:0px 0 20px 0 !important;background:#fff;border:3px solid #f1f1f1;height:100%;box-shadow:0px 10px 10px rgba(0,0,0,.1);
 	-webkit-transition: all .3s ease-in-out 0;
 	-moz-transition: all .3s ease-in-out 0;
 	-ms-transition: all .3s ease-in-out 0;
@@ -4291,7 +4294,7 @@ input, select, textarea {
 .example0{color:#2A4FDD !important;font-weight:400;}
 .exbold{color:#2A4FDD;font-weight:600;}
 
-	@media screen and (max-width: 1250px) {
+	@media screen and (max-width: 1400px) {
 .exareacol{width:48% !important;margin:5px 5px 5px 5px !important;}
 .exareacol .img{width:100%;}
 .exarea .icon{width:100px;height:100px;border:3px solid #fdfdfd;border-radius: 100px;margin:8px 0 0 12px;display: block}
