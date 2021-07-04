@@ -4314,7 +4314,9 @@ input, select, textarea {
 .copyright li{margin:-20px auto -20px auto;color: #000}
 .copyright a{color: #000;border-bottom:0;}
 .copyright li a:hover{color: #C48300 !important;border-bottom:1px solid #C48300;}
-.copyright span{color: #F9EEBB;text-align: center}
+.copyright span{color: #EDE1A4;text-align: center}
+.copyright span a{color: #EDE1A4;}
+.copyright span a:hover{color: #C48300!important;}
 
 .logonkustic{width:350px;margin:-30px 0 0 30px;padding:0 0 0 0;position:absolute;z-index:999;}
 .logonkustic img{width:100%;}
