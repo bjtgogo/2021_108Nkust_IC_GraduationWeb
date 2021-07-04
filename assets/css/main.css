@@ -4294,10 +4294,12 @@ input, select, textarea {
 	@media screen and (max-width: 1250px) {
 .exareacol{width:48% !important;margin:5px 5px 5px 5px !important;}
 .exareacol .img{width:100%;}
+.exarea .icon{width:130px;height:130px;border:3px solid #fdfdfd;border-radius: 100px;margin:8px 0 0 12px;display: block}
 	}
 	@media screen and (max-width: 750px) {
 .exareacol{width:100% !important;margin:5px 0px 5px 0px !important;}
 .exareacol .img{width:100%;height:auto;}
+.exarea .icon{width:130px;height:130px;border:3px solid #fdfdfd;border-radius: 100px;margin:8px 0 0 12px;display: block}
 	}
 
 
