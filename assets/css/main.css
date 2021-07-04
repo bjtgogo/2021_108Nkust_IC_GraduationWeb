@@ -3359,9 +3359,9 @@ input, select, textarea {
 		background: rgba(255,255,255,.95);
 		box-shadow: 0 5px 0.5em 0 rgba(0, 0, 0, 0.35);
 /*		cursor: default;*/
-		height: 3.8em;
+		height: 80px;
 		left: 0;
-		line-height: 3.8em;
+		line-height: 80px;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -3751,8 +3751,7 @@ input, select, textarea {
 		display: none;
 	}
 
-	@media screen and (max-width: 736px) {
-
+	@media screen and (max-width: 1200px) {
 		/* Basic */
 
 			html, body {
@@ -4119,7 +4118,7 @@ input, select, textarea {
 	
 	
 #logonkust{display:inline-block; width:350px;height:74px;margin-top:0px;font-size:25px;color:#B19C27;font-weight:600;vertical-align:bottom;}	
-#logonkust img{width:100%;margin-top:-10px;padding-bottom:3px !important;}
+#logonkust img{width:100%;margin-top:-5px;padding-bottom:3px !important;}
 #logonkust a{border:none;}
 .logo{margin-top:10px;}
 	@media screen and (max-width: 600px) {
