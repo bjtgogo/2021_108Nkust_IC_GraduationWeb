@@ -3438,7 +3438,7 @@ input, select, textarea {
 		background-position: center center;
 		background-size: cover;*/
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
-		min-height: 100vh;
+		/*min-height: 100vh;*/
 		position: relative;
 		text-align: center;
 		z-index: 21;
@@ -3453,11 +3453,11 @@ input, select, textarea {
 		}
 
 		#banner:after {
-		background-color: #84c9d4;
-		background-image: url("../../images/bg.jpg");
-		background-image: url("../../images/bg.jpg");
-		background-image: url("../../images/bg.jpg");
-		background-image: url("../../images/bg.jpg");
+		background-color: #71d7e2;
+		/*background-image: url("../../images/mainkv.png");
+		background-image: url("../../images/mainkv.png");
+		background-image: url("../../images/mainkv.png");
+		background-image: url("../../images/mainkv.png");*/
 		background-position: left top;
 		background-size: 100%;
 		background-repeat:no-repeat;
@@ -3474,7 +3474,7 @@ input, select, textarea {
 			display: inline-block;
 			margin-right: 1%;
 			max-width: 97%;
-			padding: 2em 6em;
+			padding: 2em 6em 0em 6em;
 			position: relative;
 			text-align: center;
 			vertical-align: middle;
@@ -4143,18 +4143,18 @@ input, select, textarea {
 
 
 .about{background:rgba(255,255,255,1);
-        background-image: url("../../images/aboutbg.jpg");
-		background-position: right top;
-		background-size: content;
+        background-image: url("../../images/page_bg01.png");
+		background-position: center bottom;
+		background-size:cover;
 		background-repeat:no-repeat;
-		height:900px;
-        border-bottom:1px solid rgba(0,0,0,.5);padding:3em 2em 2em 2em;margin:5em auto 0 auto;}
+		height:1000px;
+        border-bottom:1px solid rgba(0,0,0,.5);padding:3em 2em 3em 2em;margin:5em auto 0 auto;}
 .about h2{margin-top:50px;margin-bottom:15px;text-align:left;font-size:40px;font-weight:600;}
 .about p{padding:5px 0;margin-bottom:5px;font-size:20px;font-weight:600;width:48%;border-bottom:1px solid #c0e2f5;text-shadow:0px 0px 2px #fff;}
 
 	@media screen and (max-width: 1200px) {
 .about{background:rgba(255,255,255,1);
-        background-image: url("../../images/aboutbg2.jpg");
+        background-image: url("../../images/page_bg01.png");
 		background-position: right bottom;
 		background-size: 120%;
 		background-repeat:no-repeat;
@@ -4164,7 +4164,7 @@ input, select, textarea {
 	}
 	@media screen and (max-width: 750px) {
 .about{background:rgba(255,255,255,1);
-        background-image: url("../../images/aboutbg2.jpg");
+        background-image: url("../../images/page_bg01.png");
 		background-position: right bottom;
 		background-size: 120%;
 		background-repeat:no-repeat;
@@ -4455,6 +4455,12 @@ input, select, textarea {
 
 	
 .bigtitle{margin:50px auto 0 0px;width:100%;}	
+.bigtitle img{width:100%;box-shadow: 0 0 25px rgba(0,0,0,.3)}	
+
+	@media screen and (max-width: 1400px) {
+.bigtitle{margin:60px auto 0 0px !important;width:100%;}	
+}
+
 .nkustcontent{width:105%;margin:-50px auto 0 -70px;padding-bottom:50px;background:rgba(255,255,255,.8);}	
 #banner .content .imagenkust{
     /* border-radius: 100%; */
