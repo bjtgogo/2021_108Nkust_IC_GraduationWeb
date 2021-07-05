@@ -4127,8 +4127,7 @@ input, select, textarea {
 	}	
 
 
-	
-	
+
 	
 	
 .gp{width:80%;margin:-15px auto 0 10%;display:inline-block;}
@@ -4178,6 +4177,11 @@ input, select, textarea {
 .nkust{background:rgba(255,255,255,.9);padding:3em 2em 2em 2em;margin:1em auto 1em auto;}
 .nkust h2{margin-bottom:15px;text-align:center;font-size:40px;font-weight:600;}
 .nkust h3{margin-bottom:15px;text-align:center;color:#B19C27;font-weight:800;}
+
+.nkustteacher{background:rgba(255,255,255,.9);padding:3em 2em 2em 2em;margin:1em auto 1em auto;}
+.nkustteacher h2{margin-bottom:15px;text-align:center;font-size:40px;font-weight:600;}
+.nkustteacher h3{margin-bottom:15px;text-align:center;color:#B19C27;font-weight:800;}
+
 
 
 .header{width:50%;margin:0 0 0 35px;}
@@ -4248,7 +4252,6 @@ input, select, textarea {
 .detailct .click{position:absolute;right:0;bottom:20px;}
 .detailct h3{font-size: 25px;font-weight: bold}
 
-
 .photonkust{display: table;padding:10px;box-shadow: 0 0 10px rgba(0,0,0, 0.2);height:800px;position:relative;background: #fff;}
 .photonkust img{width:24%;height:240px;margin:5px;}
 .photonkust .click{float:right;margin-right:20px;margin-top:220px;}
@@ -4268,8 +4271,8 @@ input, select, textarea {
 }
 
 /*--------------- exarea ------------------*/
-.exarearow{margin:0 0px !important}
-.exareacol{width:23% !important;margin:5px 5px 40px 5px;padding:0px 0 20px 0 !important;background:#fff;border:3px solid #f1f1f1;height:100%;box-shadow:0px 10px 10px rgba(0,0,0,.1);
+.exarearow{margin:0 auto ;padding-left:2%;}
+.exareacol{width:23% !important;margin:5px 10px 50px 10px;padding:0px 0 20px 0 !important;background:#fff;border:3px solid #fefefe;height:100%;border-radius: 20px; box-shadow:0px 8px 8px rgba(0,0,0,.05);
 	-webkit-transition: all .3s ease-in-out 0;
 	-moz-transition: all .3s ease-in-out 0;
 	-ms-transition: all .3s ease-in-out 0;
@@ -4278,15 +4281,18 @@ input, select, textarea {
 }
 .exareacol:first-child{margin-left:0;}
 .exareacol:hover{transform: scale3d(1.02, 1.02, 1);
-	box-shadow:0px 0px 3px rgba(0,0,0,0.15), 0px 25px 25px rgba(0,0,0,0.3);
+	box-shadow:0px 0px 3px rgba(0,0,0,0.15), 0px 25px 25px rgba(0,0,0,0.2);
 	transition:box-shadow 0.5s, opacity 0.5s;
 	padding:5px 15px;}
 
 .exareacol:last-child{margin-right:0;}
-.exarea{display:flex;height:80px;padding:0 0;text-align:center;}
-.exarea .icon{width:120px;height:120px;border:3px solid #fdfdfd;border-radius: 100px;margin:8px 0 0 12px;display: block}
+.exarea{display:flex;height:90px;padding:0 0;text-align:center;}
+.exarea .icon{width:100px;height:100px;border:3px solid #fdfdfd;border-radius: 100px;margin:8px 0 0 12px;display: block}
+.exarea h3{margin-bottom:7px;margin-top:35px;margin-left:15px;font-size:23px;color:#b19c26;border-bottom:1px solid #FCE98B;width:95%;text-align:left;padding:0;}
+.exarea .wish2{font-size:20px;color:#b19c26}
+.exarea .wish{font-size:17px;color:#d3bd50}
+.emoji{font-size: 22px !important;padding:0}
 
-.exarea h3{margin-bottom:7px;margin-top:25px;margin-left:15px;font-size:32px;color:#333;border-bottom:5px solid #FCE98B;width:95%;text-align:left;}
 .exareacol h4{margin-bottom:0;margin-top:40px;font-size:18px !important;font-weight:400; color:#000;padding:0px 15px;min-height:2em}
 .exareacol .img{width:100%;height:770px;margin-bottom:-8px;border-radius:0 0 50px 50px;border:2px solid #fff;}
 .exareacol .span{margin-right:15px;margin-bottom:5px;float:right}
@@ -4295,14 +4301,23 @@ input, select, textarea {
 .exbold{color:#2A4FDD;font-weight:600;}
 
 	@media screen and (max-width: 1400px) {
-.exareacol{width:48% !important;margin:5px 5px 5px 5px !important;}
+.exareacol{width:46% !important;margin:5px 10px 30px 10px !important;}
 .exareacol .img{width:100%;}
-.exarea .icon{width:100px;height:100px;border:3px solid #fdfdfd;border-radius: 100px;margin:8px 0 0 12px;display: block}
-	}
+.exarea .icon{width:80px;height:80px;border:3px solid #fdfdfd;border-radius: 100px;margin:8px 0 0 12px;display: block}
+.exarea{display:flex;height:70px;padding:0 0;text-align:center;}
+.exarea h3{margin-bottom:7px;margin-top:25px;margin-left:15px;font-size:25px;color:#b19c26;border-bottom:1px solid #FCE98B;width:95%;text-align:left;}
+.exarea .wish2{font-size:20px;color:#b19c26}
+.exarea .wish{font-size:17px;color:#d3bd50}
+.emoji{font-size: 20px !important;padding:0}
+}
 	@media screen and (max-width: 750px) {
-.exareacol{width:100% !important;margin:5px 0px 5px 0px !important;}
+.exareacol{width:100% !important;margin:5px 0px 30px 0px !important;}
 .exareacol .img{width:100%;height:auto;}
 .exarea .icon{width:100px;height:100px;border:3px solid #fdfdfd;border-radius: 100px;margin:8px 0 0 12px;display: block}
+.exarea h3{margin-bottom:7px;margin-top:25px;margin-left:15px;font-size:25px;color:#b19c26;border-bottom:1px solid #FCE98B;width:95%;text-align:left;}
+.exarea .wish2{font-size:20px;color:#b19c26}
+.exarea .wish{font-size:17px;color:#d3bd50}
+.emoji{font-size: 30px !important;padding:0}
 	}
 
 
@@ -4529,11 +4544,14 @@ input, select, textarea {
 
 
 
-
-
-
-
-
+.mainkv{display: block;}
+.mainkv-st{display:none !important}
+@media screen and (max-width: 1400px){
+.mainkv{display: none!important;}
+}
+@media screen and (max-width: 1400px){
+.mainkv-st{display:block !important}
+}
 
 
 
