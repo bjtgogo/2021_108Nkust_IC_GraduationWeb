@@ -4257,15 +4257,15 @@ input, select, textarea {
 .photonkust .click{float:right;margin-right:20px;margin-top:220px;}
 
 @media screen and (max-width: 1400px){
-.photonkust{display: table;padding:10px;box-shadow: 0 0 10px rgba(0,0,0, 0.2);height:800px;position:relative;background: #fff;}
-.photonkust img{width:48%;height:;margin:5px;}
+.photonkust{display: table;padding:15px;box-shadow: 0 0 10px rgba(0,0,0, 0.2);height:800px;position:relative;background: #fff;}
+.photonkust img{width:47%;height:;margin:8px 8px;}
 .photonkust .click{float:right;margin-right:10px;margin-top:220px;}
 .videonkust{width:50% !important;}
 .detailct h3{font-size: 18px;font-weight: bold}
 }
 @media screen and (max-width: 768px){
-.photonkust{display: table;padding:30px;box-shadow: 0 0 10px rgba(0,0,0, 0.2);height:800px;position:relative;background: #fff;}
-.photonkust img{width:100%;margin:0 auto;}
+.photonkust{display: table;padding:30px 50px;box-shadow: 0 0 10px rgba(0,0,0, 0.2);height:800px;position:relative;background: #fff;}
+.photonkust img{width:100%;height:;margin:8px auto;}
 .photonkust .click{float:right;margin-right:10px;margin-top:20px;}
 .videonkust{width:100% !important;}
 }
