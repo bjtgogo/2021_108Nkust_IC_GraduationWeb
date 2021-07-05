@@ -4253,7 +4253,7 @@ input, select, textarea {
 .detailct h3{font-size: 25px;font-weight: bold}
 
 .photonkust{display: table;padding:10px;box-shadow: 0 0 10px rgba(0,0,0, 0.2);height:800px;position:relative;background: #fff;}
-.photonkust img{width:24%;height:240px;margin:5px;}
+.photonkust img{width:23%;height:240px;margin:12px 15px;}
 .photonkust .click{float:right;margin-right:20px;margin-top:220px;}
 
 @media screen and (max-width: 1400px){
