@@ -4145,8 +4145,8 @@ input, select, textarea {
 		background-position: center bottom;
 		background-size:cover;
 		background-repeat:no-repeat;
-		height:1000px;
-        border-bottom:1px solid rgba(0,0,0,.5);padding:2em 2em 2em 2em;margin:5em auto 0 auto;}
+		height:1700px;
+        border-bottom:1px solid rgba(0,0,0,.5);padding:2em 3em 2em 3em;margin:5em auto 0 auto;}
 .about h2{margin-top:50px;margin-bottom:15px;text-align:left;font-size:40px;font-weight:600;}
 .about p{padding:5px 0;margin-bottom:5px;font-size:20px;font-weight:600;width:48%;border-bottom:1px solid #c0e2f5;text-shadow:0px 0px 2px #fff;}
 
@@ -4196,8 +4196,11 @@ input, select, textarea {
 
 .clear{clear:both;margin-bottom:15px;}
 
-.overviwh2{font-size:50px!important;font-weight:600;margin:0 auto 0 auto;text-align:center;color:#9E001B!important}
-.overviwh3{font-size:45px;margin:0px auto 15px auto;text-align:center;font-weight:600;color:#B19C26}
+.overviwh1{font-size:50px!important;font-weight:600;margin:0 auto -35px auto;text-align:center;line-height: 50px;}
+.overviwh2{font-size:50px!important;font-weight:600;margin:0 auto 0 auto;text-align:center !important;color:#9E001B!important;line-height: 70px;}
+.overviwh3{font-size:50px;margin:0px auto 15px auto;text-align:center;font-weight:600;color:#B19C26;line-height: 50px;}
+.overviwh4{font-size:28px;margin:0px auto 15px auto;text-align:center;font-weight:600;line-height: 40px;}
+.overviwh5{font-size:30px;margin:0px auto 15px auto;text-align:center;font-weight:600;line-height: 40px;color:#9E001B;}
 .overviwh3area{color:#ED6C00 !important;font-size:35px;font-weight:100 !important;margin:15px auto 15px auto;text-align:center;width:100%;display:inline-block;}
 .overview{display:flex;margin:0 auto;padding-top:80px;padding-bottom:30px;width:90%;background:url("../../images/_Overview.png") #fff no-repeat;display:table;}
 /*.overview .img{margin-right:1%;width:32%;float:left;}*/
@@ -4272,7 +4275,7 @@ input, select, textarea {
 
 /*--------------- exarea ------------------*/
 .exarearow{margin:0 auto ;padding-left:2%;}
-.exareacol{width:23% !important;margin:5px 10px 50px 10px;padding:0px 0 20px 0 !important;background:#fff;border:3px solid #fefefe;height:100%;border-radius: 20px; box-shadow:0px 8px 8px rgba(0,0,0,.05);
+.exareacol{width:23% !important;min-height:550px;margin:5px 10px 50px 10px;padding:0px 0 20px 0 !important;background:#fff;border:3px solid #fefefe;height:100%;border-radius: 20px; box-shadow:0px 8px 8px rgba(0,0,0,.05);
 	-webkit-transition: all .3s ease-in-out 0;
 	-moz-transition: all .3s ease-in-out 0;
 	-ms-transition: all .3s ease-in-out 0;
@@ -4301,7 +4304,7 @@ input, select, textarea {
 .exbold{color:#2A4FDD;font-weight:600;}
 
 	@media screen and (max-width: 1400px) {
-.exareacol{width:46% !important;margin:5px 10px 30px 10px !important;}
+.exareacol{width:46% !important;min-height:500px;margin:5px 10px 30px 10px !important;}
 .exareacol .img{width:100%;}
 .exarea .icon{width:80px;height:80px;border:3px solid #fdfdfd;border-radius: 100px;margin:8px 0 0 12px;display: block}
 .exarea{display:flex;height:70px;padding:0 0;text-align:center;}
@@ -4311,7 +4314,7 @@ input, select, textarea {
 .emoji{font-size: 20px !important;padding:0}
 }
 	@media screen and (max-width: 750px) {
-.exareacol{width:100% !important;margin:5px 0px 30px 0px !important;}
+.exareacol{width:100% !important;min-height:auto;margin:5px 0px 30px 0px !important;}
 .exareacol .img{width:100%;height:auto;}
 .exarea .icon{width:100px;height:100px;border:3px solid #fdfdfd;border-radius: 100px;margin:8px 0 0 12px;display: block}
 .exarea h3{margin-bottom:7px;margin-top:25px;margin-left:15px;font-size:25px;color:#b19c26;border-bottom:1px solid #FCE98B;width:95%;text-align:left;}
