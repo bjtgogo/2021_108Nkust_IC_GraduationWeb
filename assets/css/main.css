@@ -4213,9 +4213,9 @@ input, select, textarea {
 .overview .img{margin:0;width:46%;}
 	}
 	@media screen and (max-width: 750px) {
-.overviwh1{font-size:30px!important;font-weight:600;margin:0 auto -35px auto;text-align:center;line-height: 30px;}
-.overviwh2{font-size:30px!important;font-weight:600;margin:0 auto 0 auto;text-align:center !important;color:#9E001B!important;line-height: 50px;}
-.overviwh3{font-size:30px;margin:0px auto 15px auto;text-align:center;font-weight:600;color:#B19C26;line-height: 30px;}
+.overviwh1{font-size:26px!important;font-weight:600;margin:0 auto -35px auto;text-align:center;line-height: 30px;}
+.overviwh2{font-size:26px!important;font-weight:600;margin:0 auto 0 auto;text-align:center !important;color:#9E001B!important;line-height: 50px;}
+.overviwh3{font-size:26px;margin:0px auto 15px auto;text-align:center;font-weight:600;color:#B19C26;line-height: 30px;}
 .overviwh4{font-size:22px;margin:0px auto 15px auto;text-align:center;font-weight:600;line-height: 30px;}
 .overviwh5{font-size:20px;margin:0px auto 15px auto;text-align:center;font-weight:600;line-height: 30px;color:#9E001B;}
 .overviwh3area{color:#ED6C00;font-size:28px;font-weight:600;margin:5px auto 5px auto;text-align:center;width:100%;display:inline-block;}
