@@ -4207,6 +4207,7 @@ input, select, textarea {
 .overview .img{margin:0;/*width:19%;*/width:16%;}
 .bold{font-weight: 400;color:#333}
 
+
 	@media screen and (max-width: 1200px) {
 .overview{width:100%;}
 .overview .img{margin:0;width:46%;}
