@@ -4205,7 +4205,7 @@ input, select, textarea {
 .overview{display:flex;margin:0 auto;padding-top:80px;padding-bottom:30px;width:90%;background:url("../../images/_Overview.png") #fff no-repeat;display:table;}
 /*.overview .img{margin-right:1%;width:32%;float:left;}*/
 .overview .img{margin:0;/*width:19%;*/width:16%;}
-.bold{font-weight: bold;}
+.bold{font-weight: bold;color:#000}
 
 	@media screen and (max-width: 1200px) {
 .overview{width:100%;}
